@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+@theme {
+  --color-background: #0F1418;
+  --color-foreground: #f0f2f5;
+  --color-accent: #4ECCA3;
+  --color-muted: #1a2228;
+  --color-subtle: #8899a6;
