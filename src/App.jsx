@@ -55,10 +55,10 @@ export default function App() {
           <h2 className="text-3xl font-semibold text-white mb-8">Case Studies</h2>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { n: "01", title: "Shear Perfection", sub: "Hairdresser Service Site", tag: "Service Design", img: "/Hair.jpg" },
+              { n: "01", title: "Shear Perfection", sub: "Hairdresser Service Site", tag: "Service Design", img: "/hair.jpg" },
               { n: "02", title: "Flip & Remember", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG" },
-              { n: "03", title: "Thread & Form", sub: "Clothing E-Commerce", tag: "E-Commerce", img: "/Commerce.PNG" },
-              { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/Analytics.png" },
+              { n: "03", title: "Thread & Form", sub: "Clothing E-Commerce", tag: "E-Commerce", img: "/commerce.PNG" },
+              { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/analytics.png" },
             ].map(({ n, title, sub, tag, img }) => (
               <div key={n} className="bg-white/10 hover:bg-white/20 transition-colors p-6 rounded-sm cursor-pointer">
                 <div className="flex justify-between items-start mb-6">
