@@ -36,7 +36,7 @@ export default function App() {
           <h2 className="text-3xl font-semibold text-white mb-6">How I Work</h2>
           <div className="space-y-4 text-emerald-100 text-lg leading-relaxed">
             <p>
-              I possess experience creating projects using <span className="text-white font-medium">HTML, CSS, and JavaScript</span> — including a completely custom-made replica of an Amazon webpage that involved replicating all of its functionality.
+              I have experience creating projects using <span className="text-white font-medium">HTML, CSS, and JavaScript</span> — including a completely custom-made replica of an Amazon webpage that involved replicating all of its functionality.
             </p>
             <p>
               I am familiar with the basic concepts behind building for the web — structuring websites, styling pages and their various components, and adding functionality through coding.
