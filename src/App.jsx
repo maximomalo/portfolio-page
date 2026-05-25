@@ -78,7 +78,7 @@ export default function App() {
       {/* Footer */}
       <footer className="px-12 py-6 border-t border-gray-200 flex justify-between text-gray-400 text-xs font-mono">
         <span>Maxime Malouf</span>
-        <span>© 2025</span>
+        <span>© 2026</span>
       </footer>
 
     </div>
