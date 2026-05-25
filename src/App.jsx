@@ -31,24 +31,24 @@ export default function App() {
           </p>
         </section>
 
-  {/* Process */}
-<section id="process" className="bg-emerald-600 rounded-md p-10">
-  <h2 className="text-3xl font-semibold text-white mb-6">How I Work</h2>
-  <div className="space-y-4 text-emerald-100 text-lg leading-relaxed">
-    <p>
-      I have hands-on experience building projects with <span className="text-white font-medium">HTML, CSS, and JavaScript</span> — including a fully designed <span className="text-white font-medium">Amazon mockup</span> where I recreated the layout and shopping experience from scratch.
-    </p>
-    <p>
-      I'm comfortable working with the fundamentals of the web — structuring pages, styling components, and adding interactivity — and I'm always looking to improve my craft with each project.
-    </p>
-    <p>
-      I'm currently taking a <span className="text-white font-medium">UI design course</span> where I'm learning core design elements, user interface principles, and how to think about digital products from a user's perspective.
-    </p>
-    <p>
-      As the semester progresses, I'll be building on these skills — exploring <span className="text-white font-medium">user-centered design</span>, <span className="text-white font-medium">heuristic evaluation</span>, and translating that knowledge into real case studies.
-    </p>
-  </div>
-</section>
+        {/* Process */}
+        <section id="process" className="bg-emerald-600 rounded-md p-10">
+          <h2 className="text-3xl font-semibold text-white mb-6">How I Work</h2>
+          <div className="space-y-4 text-emerald-100 text-lg leading-relaxed">
+            <p>
+              I possess experience creating projects using <span className="text-white font-medium">HTML, CSS, and JavaScript</span> — including a completely custom-made replica of an Amazon webpage that involved replicating all of its functionality.
+            </p>
+            <p>
+              I am familiar with the basic concepts behind building for the web — structuring websites, styling pages and their various components, and adding functionality through coding.
+            </p>
+            <p>
+              Currently, I am enrolled in a <span className="text-white font-medium">UI design class</span> which is providing me with an understanding of fundamental design concepts, basics of user interface, and the way users interact with websites or mobile apps.
+            </p>
+            <p>
+              During this semester, I am planning to explore various <span className="text-white font-medium">user-centered design</span> principles and <span className="text-white font-medium">heuristic evaluation</span> techniques by applying these principles and skills in case studies.
+            </p>
+          </div>
+        </section>
 
         {/* Case Studies */}
         <section id="work" className="bg-violet-600 rounded-md p-10">
@@ -78,7 +78,7 @@ export default function App() {
       {/* Footer */}
       <footer className="px-12 py-6 border-t border-gray-200 flex justify-between text-gray-400 text-xs font-mono">
         <span>Maxime Malouf</span>
-        <span>© 2026</span>
+        <span>© 2025</span>
       </footer>
 
     </div>
