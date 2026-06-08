@@ -249,7 +249,7 @@ const s = {
             {/* Step 3 — Date & Time */}
             {step === 3 && !confirmed && (
               <>
-                <p style={{ fontSize: 13, color: "#6b6258", fontFamily: "sans-serif", marginBottom: "1.5rem" }}>Pick a date in May 2026</p>
+                <p style={{ fontSize: 13, color: "#6b6258", fontFamily: "sans-serif", marginBottom: "1.5rem" }}> May 2026</p>
                 <div style={s.calGrid}>
                   {DAYS.map(d => <div key={d} style={s.calHeader}>{d}</div>)}
                   {cells.map((cell, i) => (
