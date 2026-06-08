@@ -178,7 +178,7 @@ const s = {
             <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
               <div>
                 <div style={s.sectionLabel}>Visit Us</div>
-                <div style={{ fontSize: 22, fontWeight: 300, color: "#f5f0e8", letterSpacing: 1 }}>147 Sparks St, Ottawa</div>
+                <div style={{ fontSize: 22, fontWeight: 300, color: "#f5f0e8", letterSpacing: 1 }}>120 Bank St, Ottawa</div>
               </div>
               <button style={s.btnOutline} onClick={() => goTo("contact")}>Get Directions →</button>
             </div>
@@ -249,7 +249,7 @@ const s = {
             {/* Step 3 — Date & Time */}
             {step === 3 && !confirmed && (
               <>
-                <p style={{ fontSize: 13, color: "#6b6258", fontFamily: "sans-serif", marginBottom: "1.5rem" }}>Pick a date in May 2026</p>
+                <p style={{ fontSize: 13, color: "#6b6258", fontFamily: "sans-serif", marginBottom: "1.5rem" }} May 2026</p>
                 <div style={s.calGrid}>
                   {DAYS.map(d => <div key={d} style={s.calHeader}>{d}</div>)}
                   {cells.map((cell, i) => (
