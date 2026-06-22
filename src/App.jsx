@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ShearPerfection from "./ShearPerfection";
+import CardRecall from "./CardRecall";
 
 export default function App() {
   const [activePage, setActivePage] = useState(null);
@@ -8,9 +9,13 @@ export default function App() {
     return <ShearPerfection onBack={() => setActivePage(null)} />;
   }
 
+  if (activePage === "card-recall") {
+  return <CardRecall onBack={() => setActivePage(null)} />;
+}
+
   const caseStudies = [
     { n: "01", title: "Shear Perfection", sub: "Hairdresser Service Site", tag: "Service Design", img: "/Hair.jpg", page: "shear-perfection" },
-    { n: "02", title: "Flip & Remember", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG", page: null },
+    { n: "02", title: "Flip & Remember", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG", page: "card-recall" },
     { n: "03", title: "Thread & Form", sub: "Clothing E-Commerce", tag: "E-Commerce", img: "/Commerce.PNG", page: null },
     { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/Analytics.png", page: null },
   ];
