@@ -15,7 +15,7 @@ export default function App() {
 
   const caseStudies = [
     { n: "01", title: "Shear Perfection", sub: "Hairdresser Service Site", tag: "Service Design", img: "/Hair.jpg", page: "shear-perfection" },
-    { n: "02", title: "Flip & Remember", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG", page: "card-recall" },
+    { n: "02", title: "Card Recall", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG", page: "card-recall" },
     { n: "03", title: "Thread & Form", sub: "Clothing E-Commerce", tag: "E-Commerce", img: "/Commerce.PNG", page: null },
     { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/Analytics.png", page: null },
   ];
