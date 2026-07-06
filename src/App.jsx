@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ShearPerfection from "./ShearPerfection";
 import CardRecall from "./CardRecall";
+import MaisonDOrelie from "./MaisonDOrelie";
 
 export default function App() {
   const [activePage, setActivePage] = useState(null);
@@ -13,10 +14,15 @@ export default function App() {
   return <CardRecall onBack={() => setActivePage(null)} />;
 }
 
+if (activePage === "maison-dorelie") {
+  return <MaisonDOrelie onBack={() => setActivePage(null)} />;
+}
+
+
   const caseStudies = [
     { n: "01", title: "Shear Perfection", sub: "Hairdresser Service Site", tag: "Service Design", img: "/Hair.jpg", page: "shear-perfection" },
     { n: "02", title: "Card Recall", sub: "Memory Card Game", tag: "Game Design", img: "/Memory.PNG", page: "card-recall" },
-    { n: "03", title: "Thread & Form", sub: "Clothing E-Commerce", tag: "E-Commerce", img: "/Commerce.PNG", page: null },
+    { n: "03", title: "Maison d'Orélie", sub: "Luxury Apparel E-Commerce", tag: "E-Commerce", img: "/Commerce.PNG", page: "maison-dorelie" },
     { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/Analytics.png", page: null },
   ];
 
