@@ -26,6 +26,8 @@ if (activePage === "maison-dorelie") {
     { n: "04", title: "StatEdge", sub: "Sport Analytics Dashboard", tag: "Data Visualization", img: "/Analytics.png", page: null },
   ];
 
+  "Test"
+
   return (
     <div className="bg-white min-h-screen text-gray-900" style={{ fontFamily: "'Inter', sans-serif" }}>
 
